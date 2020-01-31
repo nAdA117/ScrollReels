@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0164D02349B23FCE2013AD88 /* Pods_ScrollReels_ScrollReelsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28F066DEB1D38B7380D7B4F /* Pods_ScrollReels_ScrollReelsUITests.framework */; };
+		0BF396B3D6DFACA47156477C /* Pods_ScrollReels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C1A7FACA054AA1D306DFD0 /* Pods_ScrollReels.framework */; };
+		C812BB467F125A7AB578349D /* Pods_ScrollReelsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A71F4C1F7501F1602C54990 /* Pods_ScrollReelsTests.framework */; };
 		F6FC548823E3C75000146B84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FC548723E3C75000146B84 /* AppDelegate.swift */; };
-		F6FC548A23E3C75000146B84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FC548923E3C75000146B84 /* ViewController.swift */; };
 		F6FC548D23E3C75000146B84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FC548B23E3C75000146B84 /* Main.storyboard */; };
 		F6FC548F23E3C75200146B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6FC548E23E3C75200146B84 /* Assets.xcassets */; };
 		F6FC549223E3C75200146B84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FC549023E3C75200146B84 /* LaunchScreen.storyboard */; };
 		F6FC549D23E3C75300146B84 /* ScrollReelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FC549C23E3C75300146B84 /* ScrollReelsTests.swift */; };
 		F6FC54A823E3C75300146B84 /* ScrollReelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FC54A723E3C75300146B84 /* ScrollReelsUITests.swift */; };
+		F6FC54B623E3CA4900146B84 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FC54B523E3CA4900146B84 /* MoviesViewController.swift */; };
+		F6FC54B823E3D56A00146B84 /* movieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FC54B723E3D56A00146B84 /* movieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05E552671CE4BF39A88F708B /* Pods-ScrollReels-ScrollReelsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollReels-ScrollReelsUITests.release.xcconfig"; path = "Target Support Files/Pods-ScrollReels-ScrollReelsUITests/Pods-ScrollReels-ScrollReelsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		09C3868253FCAFE0361A4408 /* Pods-ScrollReelsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollReelsTests.debug.xcconfig"; path = "Target Support Files/Pods-ScrollReelsTests/Pods-ScrollReelsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82C1A7FACA054AA1D306DFD0 /* Pods_ScrollReels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollReels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A71F4C1F7501F1602C54990 /* Pods_ScrollReelsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollReelsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A187ECC17FBDC06C907D10A5 /* Pods-ScrollReels-ScrollReelsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollReels-ScrollReelsUITests.debug.xcconfig"; path = "Target Support Files/Pods-ScrollReels-ScrollReelsUITests/Pods-ScrollReels-ScrollReelsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8293E167FF14C5B092D81BD /* Pods-ScrollReelsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollReelsTests.release.xcconfig"; path = "Target Support Files/Pods-ScrollReelsTests/Pods-ScrollReelsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C026D7E900676DBA4DCCBC3F /* Pods-ScrollReels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollReels.debug.xcconfig"; path = "Target Support Files/Pods-ScrollReels/Pods-ScrollReels.debug.xcconfig"; sourceTree = "<group>"; };
+		E583F4C244E4B5D9E6C9F587 /* Pods-ScrollReels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollReels.release.xcconfig"; path = "Target Support Files/Pods-ScrollReels/Pods-ScrollReels.release.xcconfig"; sourceTree = "<group>"; };
+		F28F066DEB1D38B7380D7B4F /* Pods_ScrollReels_ScrollReelsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollReels_ScrollReelsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6FC548423E3C75000146B84 /* ScrollReels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollReels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6FC548723E3C75000146B84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6FC548923E3C75000146B84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6FC548C23E3C75000146B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6FC548E23E3C75200146B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6FC549123E3C75200146B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +59,8 @@
 		F6FC54A323E3C75300146B84 /* ScrollReelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollReelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6FC54A723E3C75300146B84 /* ScrollReelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollReelsUITests.swift; sourceTree = "<group>"; };
 		F6FC54A923E3C75300146B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6FC54B523E3CA4900146B84 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		F6FC54B723E3D56A00146B84 /* movieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BF396B3D6DFACA47156477C /* Pods_ScrollReels.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C812BB467F125A7AB578349D /* Pods_ScrollReelsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0164D02349B23FCE2013AD88 /* Pods_ScrollReels_ScrollReelsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		731B7355C66B0254FB19F279 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82C1A7FACA054AA1D306DFD0 /* Pods_ScrollReels.framework */,
+				F28F066DEB1D38B7380D7B4F /* Pods_ScrollReels_ScrollReelsUITests.framework */,
+				9A71F4C1F7501F1602C54990 /* Pods_ScrollReelsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECB05F01E7F1F2535C7472D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C026D7E900676DBA4DCCBC3F /* Pods-ScrollReels.debug.xcconfig */,
+				E583F4C244E4B5D9E6C9F587 /* Pods-ScrollReels.release.xcconfig */,
+				A187ECC17FBDC06C907D10A5 /* Pods-ScrollReels-ScrollReelsUITests.debug.xcconfig */,
+				05E552671CE4BF39A88F708B /* Pods-ScrollReels-ScrollReelsUITests.release.xcconfig */,
+				09C3868253FCAFE0361A4408 /* Pods-ScrollReelsTests.debug.xcconfig */,
+				B8293E167FF14C5B092D81BD /* Pods-ScrollReelsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F6FC547B23E3C75000146B84 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +122,8 @@
 				F6FC549B23E3C75300146B84 /* ScrollReelsTests */,
 				F6FC54A623E3C75300146B84 /* ScrollReelsUITests */,
 				F6FC548523E3C75000146B84 /* Products */,
+				ECB05F01E7F1F2535C7472D4 /* Pods */,
+				731B7355C66B0254FB19F279 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +141,12 @@
 			isa = PBXGroup;
 			children = (
 				F6FC548723E3C75000146B84 /* AppDelegate.swift */,
-				F6FC548923E3C75000146B84 /* ViewController.swift */,
 				F6FC548B23E3C75000146B84 /* Main.storyboard */,
+				F6FC54B723E3D56A00146B84 /* movieCell.swift */,
 				F6FC548E23E3C75200146B84 /* Assets.xcassets */,
 				F6FC549023E3C75200146B84 /* LaunchScreen.storyboard */,
 				F6FC549323E3C75200146B84 /* Info.plist */,
+				F6FC54B523E3CA4900146B84 /* MoviesViewController.swift */,
 			);
 			path = ScrollReels;
 			sourceTree = "<group>";
@@ -132,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6FC54AC23E3C75300146B84 /* Build configuration list for PBXNativeTarget "ScrollReels" */;
 			buildPhases = (
+				E170B58B8127F37174EFF28C /* [CP] Check Pods Manifest.lock */,
 				F6FC548023E3C75000146B84 /* Sources */,
 				F6FC548123E3C75000146B84 /* Frameworks */,
 				F6FC548223E3C75000146B84 /* Resources */,
+				FAC7E6F89383456CCF7E73AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6FC54AF23E3C75300146B84 /* Build configuration list for PBXNativeTarget "ScrollReelsTests" */;
 			buildPhases = (
+				445DBE0FA70D82806E1E7CEA /* [CP] Check Pods Manifest.lock */,
 				F6FC549423E3C75300146B84 /* Sources */,
 				F6FC549523E3C75300146B84 /* Frameworks */,
 				F6FC549623E3C75300146B84 /* Resources */,
@@ -167,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6FC54B223E3C75300146B84 /* Build configuration list for PBXNativeTarget "ScrollReelsUITests" */;
 			buildPhases = (
+				58CCB265E29E3172A40C4F8A /* [CP] Check Pods Manifest.lock */,
 				F6FC549F23E3C75300146B84 /* Sources */,
 				F6FC54A023E3C75300146B84 /* Frameworks */,
 				F6FC54A123E3C75300146B84 /* Resources */,
+				1CB32DA6A0AA03F8C562DB2C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +300,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CB32DA6A0AA03F8C562DB2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollReels-ScrollReelsUITests/Pods-ScrollReels-ScrollReelsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollReels-ScrollReelsUITests/Pods-ScrollReels-ScrollReelsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScrollReels-ScrollReelsUITests/Pods-ScrollReels-ScrollReelsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		445DBE0FA70D82806E1E7CEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollReelsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58CCB265E29E3172A40C4F8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollReels-ScrollReelsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E170B58B8127F37174EFF28C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollReels-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAC7E6F89383456CCF7E73AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollReels/Pods-ScrollReels-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollReels/Pods-ScrollReels-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScrollReels/Pods-ScrollReels-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F6FC548023E3C75000146B84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6FC548A23E3C75000146B84 /* ViewController.swift in Sources */,
+				F6FC54B823E3D56A00146B84 /* movieCell.swift in Sources */,
 				F6FC548823E3C75000146B84 /* AppDelegate.swift in Sources */,
+				F6FC54B623E3CA4900146B84 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +583,11 @@
 		};
 		F6FC54AD23E3C75300146B84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C026D7E900676DBA4DCCBC3F /* Pods-ScrollReels.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VD9A68X5N;
 				INFOPLIST_FILE = ScrollReels/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +602,11 @@
 		};
 		F6FC54AE23E3C75300146B84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E583F4C244E4B5D9E6C9F587 /* Pods-ScrollReels.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VD9A68X5N;
 				INFOPLIST_FILE = ScrollReels/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +621,7 @@
 		};
 		F6FC54B023E3C75300146B84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C3868253FCAFE0361A4408 /* Pods-ScrollReelsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +642,7 @@
 		};
 		F6FC54B123E3C75300146B84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8293E167FF14C5B092D81BD /* Pods-ScrollReelsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +663,7 @@
 		};
 		F6FC54B323E3C75300146B84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A187ECC17FBDC06C907D10A5 /* Pods-ScrollReels-ScrollReelsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +683,7 @@
 		};
 		F6FC54B423E3C75300146B84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E552671CE4BF39A88F708B /* Pods-ScrollReels-ScrollReelsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
