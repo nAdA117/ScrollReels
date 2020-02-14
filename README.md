@@ -37,6 +37,6 @@ Had issues with my swift version being too current.
 
 ### App Walkthough GIF
 
-<img src="https://s3.amazonaws.com/img0.recordit.co/t7EDToGfhv.mp4?AWSAccessKeyId=AKIAUQ5RURZ7ND2T2B6I&Expires=1581057414&Signature=2onNfB7bAicpzQjH40qyd%2BgylYg%3D" width=250><br>
+<img src="https://imgur.com/a/YwfPl1o" width=250><br>
 
 ### Notes
